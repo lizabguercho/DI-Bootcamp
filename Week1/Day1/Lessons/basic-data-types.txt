@@ -1,0 +1,13 @@
+BASIC DATA TYPES VOCABULARY
+
+Strings = text representation on python which can be recognised by "" marks. It is a sequence of chracters.
+they are immutable.
+
+Numbers = digits that have a value that can be calculated
+3 types:
+- integer = are whole numbers
+- floats = decimal numbers
+- complex numbers =  real part + imaginary part
+
+
+Booleans = 
