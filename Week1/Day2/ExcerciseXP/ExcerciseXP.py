@@ -1,6 +1,6 @@
 # ex 1
 
-my_fav_numbers = {1,3,6,8,7}   ""
+my_fav_numbers = {1,3,6,8,7}   
 friend_fav_numbers = {3,4,7,5,9}
 
 my_fav_numbers.add(11)
