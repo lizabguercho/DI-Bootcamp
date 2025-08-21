@@ -80,27 +80,35 @@
 # print(toppings)
 # print(str(total_cost) + "$")
 
-# ex 9
-# total_cost = 0
-# while True:
-#     user_age = int(input("Write down your age:(enter 0 to quit) "))  
-#     if user_age == 0:
-#         break      
-#     elif user_age < 3:
-#         total_cost += 0
-#     elif 3 <= user_age <= 12:
-#         total_cost += 10
-#     else:
-#         total_cost += 12
+ex 9
+total_cost = 0
+while True:
+    user_age = int(input("Write down your age:(enter 0 to quit) "))  
+    if user_age == 0:
+        break      
+    elif user_age < 3:
+        total_cost += 0
+    elif 3 <= user_age <= 12:
+        total_cost += 10
+    else:
+        total_cost += 12
 
-# print(str(total_cost) + "$")
+print(str(total_cost) + "$")
 
 
 # Ex 10
 
 sandwich_orders = ["Tuna", "Pastrami", "Avocado", "Pastrami", "Egg", "Chicken", "Pastrami"]
 
-for food in sandwich_orders:
-    sandwich_orders.remove("Pastrami")
+finished_sandwiches = []
 
+while "Pastrami" in sandwich_orders:
+    sandwich_orders.remove("Pastrami")
 print(sandwich_orders)
+
+for sandwich in sandwich_orders:
+    print(f"I made your {sandwich} sandwich.")
+    finished_sandwiches.append(sandwich)
+
+print(finished_sandwiches)
+    
