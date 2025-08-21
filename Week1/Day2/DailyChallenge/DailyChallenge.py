@@ -12,3 +12,15 @@ print(multiple_list)
 
 # Challenge_2
 
+user_string = input("Type a string: ")
+new_str = user_string[0]
+for char in user_string[1:]:
+    if char != new_str[-1]:
+        new_str += char
+print(new_str)
+
+
+
+
+
+    
