@@ -11,9 +11,13 @@ while True:
         print(f"First character is {user_input[0]} and last character is {user_input[-1]}")
         break
 print()
-for i in range(1,length_str+1):
-    print(user_input[:i])
+# for i in range(1,length_str+1):
+#     print(user_input[:i])
 
+output = ""
+for letter in user_input:
+    output += letter
+    print(output)
 print()
 
 import random
