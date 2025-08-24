@@ -40,7 +40,7 @@ basket = []
 
 for key,value in items_purchase.items():
   
-    if value <= limit:
+    if value < limit:
         basket.append(key)
        
 
