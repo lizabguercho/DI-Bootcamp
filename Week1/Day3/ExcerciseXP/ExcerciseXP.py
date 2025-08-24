@@ -7,7 +7,20 @@ print(new_dict)
 
 
 # #Ex 2
+total_cost = 0
+family = {"rick": 43, 'beth': 13, 'morty': 5, 'summer': 8}
+for name, age in family.items():
+    if age < 3:
+         print(f"{name}: 0$")
+    elif 3 <= age <= 12:
+        total_cost += 10
+        print(f"{name}: 10$")
+    elif age > 12:
+        total_cost += 15
+        print(f"{name}: 15$")
+print(f"Total cost of tickets: {total_cost}$")
 
+# Bonus
 total_cost = 0
 member_info = {}
 while True:    
