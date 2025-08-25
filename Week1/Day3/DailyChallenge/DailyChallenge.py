@@ -4,10 +4,10 @@ if user_input.isalpha():
     print(f"You entered {user_input}")        
 else:
     print("Invalid input.Please enter only letters")
-user_input_list = list(user_input)
+
 result = {}
-for i, letter in enumerate(user_input_list):
-    letter = str(letter)
+for i, letter in enumerate(user_input):
+ 
     if letter not in result:
         result[letter] = []
     result[letter].append(i)
