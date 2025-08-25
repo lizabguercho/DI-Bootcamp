@@ -12,7 +12,7 @@ for i, letter in enumerate(user_input):
         result[letter] = []
     result[letter].append(i)
    
-print(result)
+# print(result)
 
 
 
@@ -22,11 +22,11 @@ items_purchase = {"Water": "$1", "Bread": "$3", "TV": "$1,000", "Fertilizer": "$
 
 wallet = "$300"
 
-items_purchase = {"Apple": "$4", "Honey": "$3", "Fan": "$14", "Bananas": "$4", "Pan": "$100", "Spoon": "$2"}
-wallet = "$100"
+# # items_purchase = {"Apple": "$4", "Honey": "$3", "Fan": "$14", "Bananas": "$4", "Pan": "$100", "Spoon": "$2"}
+# # wallet = "$100"
 
-items_purchase = {"Phone": "$999", "Speakers": "$300", "Laptop": "$5,000", "PC": "$1200"}
-wallet = "$1"
+# # items_purchase = {"Phone": "$999", "Speakers": "$300", "Laptop": "$5,000", "PC": "$1200"}
+# # wallet = "$1"
 
 updated_wallet= int(wallet.strip("$"))
 
