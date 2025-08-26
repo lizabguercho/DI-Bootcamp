@@ -10,16 +10,16 @@ matrix = []
 for line in MATRIX_STR.splitlines():
     matrix.append([char for char in line])
 
-result = ""
+decoded_message = ""
 for col_index in range(len(matrix[0])):
     for row in matrix:
         char = row[col_index]
         if char.isalpha():
-            result += char
+            decoded_message += char
         else:
-            result += " "
+            decoded_message += " "
         
-print(result.strip())
+print(decoded_message.strip())
 
 
     
