@@ -27,7 +27,7 @@ basket.clear()
 print(basket)
 
 # ex 4
-Float is a decimal number and integer is a whole number
+# Float is a decimal number and integer is a whole number
 num_list = [1.5]
 
 for num in range (1,8):

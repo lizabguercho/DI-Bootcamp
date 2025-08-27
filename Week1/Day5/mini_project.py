@@ -8,6 +8,7 @@ def initialize_board():
         board.append(row)
     return board
 
+
 def display_board(board_to_display):
     for row in board_to_display:
         print(" ".join(row))
@@ -44,6 +45,7 @@ def flatten_board(board):
         for element in row:    
             flat_list.append(element)
     return flat_list
+
 
 def check_win(board,player) -> bool:
     win_coord = ((0,1,2), (3,4,5), (6,7,8), (0,3,6), (1,4,7), (2,5,8), (0,4,8), (2,4,6))
