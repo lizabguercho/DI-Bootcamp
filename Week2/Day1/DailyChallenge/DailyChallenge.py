@@ -53,3 +53,5 @@ macdonald.add_animal('goat', 12)
 print(macdonald.get_info())
 print(macdonald.get_animal_types())
 print(macdonald.get_short_info(5))
+
+  

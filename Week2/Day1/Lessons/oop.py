@@ -1,6 +1,11 @@
 # OOP: Object oriented programming
 #CLASS = blueprint of the object where we will define what are the properties and behaviors of the object
 
+# Class:a structure that defines the properties and behaviors of the objects.
+#
+
+
+
 #syntax
 
 class Dog: # class needs to start with  acpital "D"
