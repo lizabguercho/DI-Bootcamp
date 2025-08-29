@@ -75,3 +75,51 @@ print(dog2.run_speed())
 print(dog1.fight(dog2))
 print(dog2.fight(dog1))
 
+#ex 4
+
+class Person:
+    def __init__(self, first_name, age, last_name = ""):
+        self.first_name = first_name
+        self.age = age
+        self.last_name = last_name
+    
+    def is_18(self) -> bool:
+        '''Return True if the preson is 18,otherwise False'''
+        return self.age  >= 18
+        
+
+class Family():
+    def __init__(self, last_name):
+        self.last_name = last_name
+        self.members =[]
+        
+    def born(self, first_name, age):
+        '''Creates a new person with first name and age and adds them to members list'''
+        new_member = Person(first_name, age, self.last_name)
+        self.members.append(new_member)
+      
+
+    def check_majority(self,first_name):
+        '''Check if person exists in the family and is 18 or older'''
+        for member in self.members:
+             if member.first_name == first_name and member.is_18():
+                print(f"You are over 18, your parents accept that you will go out with your friends")
+                return
+        print("Sorry, you are not allowed to go out with your friends.")
+                
+                         
+    def family_presentation(self):
+        ''' prints the family's last name and all members'''
+        print(f"Family {self.last_name}: ")
+        for member in self.members:
+            print(f"- {member.first_name} {member.last_name}, {member.age} years old")
+
+smiths = Family("Smith")
+smiths.born("Katty",32)
+smiths.born("Bob",40)
+smiths.born("Ally",5)
+
+smiths.family_presentation()
+smiths.check_majority("Katty")
+smiths.check_majority("Bob")
+smiths.check_majority("Ally")
