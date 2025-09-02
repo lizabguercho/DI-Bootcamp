@@ -42,3 +42,6 @@ circles.sort()
 for c in circles:
     print(c)
 
+
+class Circle:
+    

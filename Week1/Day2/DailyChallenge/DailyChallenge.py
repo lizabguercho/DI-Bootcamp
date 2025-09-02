@@ -43,6 +43,7 @@ age_in_years = age_in_days //365
 print(f"{age_in_years}")
 
 
+
 cake = f"""
        ___iiiii___
       |:H:a:p:p:y:|
@@ -52,7 +53,7 @@ cake = f"""
    |                 |
    ~~~~~~~~~~~~~~~~~~~
 """
-
+candles = cake.replace (___iiiii___)
 print(cake)
 
 
