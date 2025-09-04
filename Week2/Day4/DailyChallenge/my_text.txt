@@ -1,0 +1,5 @@
+Although the dataset is small, we can test several models; however, results may vary.
+I bought 3 items for $12.50, but I returned 1 because it was “defective” (or so I thought).
+Email me at research.team@example.com
+ and follow #AI-Insights — we share tips & tricks daily! 😊
+Warning: do not run sudo rm -rf /; instead, try safe-clean — it’s 100% safer ★.
