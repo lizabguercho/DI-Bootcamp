@@ -1,0 +1,8 @@
+1. Class -  ablueprint that can be used to create an object with specific properties and behaviors.
+2. Instance - an item that has all attributes of a Class
+3. Encapsulation  means keeping an object’s data safe by hiding it inside the class and only letting it be changed through controlled methods.
+4. Abstraction means showing only the important details of how something works and hiding the unnecessary complexity.
+5. Inhertitance - process in which a child class can inherit properties and behaviors of a parent class.
+6. Multiple inheritance - inheritance from multiple parent classes at the same time.
+7. Polymorphism means the same function or method name can be used in different ways depending on the object that calls it.
+8. Method resolution order -is the rule Python uses to decide which method to call first when a class inherits from multiple parents (and they have methods with the same name).
