@@ -1,0 +1,38 @@
+
+What is data analysis?
+Data analysis means working with raw data and transforming it in order to get valuable insights. 
+
+Steps of transforming raw data:
+1. Collecting data
+2. Cleaning it (remove mistakes, NAs)
+3. Exploring and visualizing
+4. Organizing it in a clear way
+4. Using statistics or algorithms to find patterns. 
+
+The main goal is to understand what the data is telling us and use it to make better decisions or discoveries.
+
+In the modern world we are surrounded by a huge amount of data. Companies, hospitals, governmental establishments, and research institutes all collect a lot of infomation that can be very useful.
+Without analysis, this information would too complex to have any value. Therefore, data analysis is a very powerful subject that can help to produce meanungful insights from raw data.
+
+
+Three areas where data analysis is applied today:
+
+1. Healthcare and Biotechnology
+In biology and medicine, data analysis is extremely important.
+For example, biotech companies analyze RNA data from saliva or blood samples, which helps to give personal nutrition advice and even detect diseases like cancer at early stages.
+In research, we also use data analysis to study gene expression or to check the quality of next-generation sequencing (NGS) results. 
+Without data analysis, it would be impossible to handle the huge and complex datasets.
+
+2. Business and Market Intelligence
+Companies use data analysis to learn more about their customers, discover new chances to grow, and avoid possible problems. 
+For example, banks and financial firms study large amounts of data to catch fraud and to guess how the market might change. 
+This helps managers make quicker and smarter decisions.
+
+3. Science
+In science data analysis is the core of every decision.
+For example, climate reserch scientists collect information from satellites, sensors, and weather stations to track climate change, predict natural disasters, and manage resources like water and energy.
+These insights help governments and organizations plan for sustainability and protect ecosystems.
+
+----Conclusion----
+From my biology background, I see how data analysis helps scientists turn complex experimental data into knowledge that can improve human health.
+In the same way, businesses and technology companies use data to adapt and innovate.
