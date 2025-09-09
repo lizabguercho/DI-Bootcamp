@@ -1,0 +1,17 @@
+{
+    "Name": {
+        "0": "Thomas Brody",
+        "1": "Kelly Clarks",
+        "2": "Amy White"
+    },
+    "Age": {
+        "0": 15,
+        "1": 14,
+        "2": 20
+    },
+    "City": {
+        "0": "New York",
+        "1": "Seattle",
+        "2": " Boston"
+    }
+}
