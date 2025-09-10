@@ -1,2 +1,4 @@
 pandas>=2.3.2
 pyenchant
+seaborn
+forex-python
