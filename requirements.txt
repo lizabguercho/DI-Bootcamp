@@ -2,3 +2,9 @@ pandas>=2.3.2
 pyenchant
 seaborn
 forex-python
+ipywidgets
+plotly
+statsmodels
+xlrd
+mplfinance
+scikit-learn
