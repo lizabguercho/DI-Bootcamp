@@ -1,5 +1,6 @@
 .venv
 __pycache__
-**/.DS_Store
+.DS_Store
 Week5/Day2/lessons/creditcard.csv
 Week5/Day2/lessons/creditcard.csv
+*.csv
