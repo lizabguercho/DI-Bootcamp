@@ -8,3 +8,4 @@ statsmodels
 xlrd
 mplfinance
 scikit-learn
+xgboost
