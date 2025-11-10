@@ -1,0 +1,7 @@
+URL: https://github.com/lizabguercho/DI-Bootcamp/blob/main/Week1/Day1/DailyChallenge/DailyChallenge.py
+Brief justification:
+- correctness: The code accurately addresses all the requirements outlined in the chapter content. It correctly prompts for user input, validates the string length, prints the first and last characters of a valid string, constructs the string character by character, and shuffles the string as a bonus, perfectly aligning with the instructions.
+- readability: The code is well-structured and easy to understand. Variable names are descriptive, and comments are used effectively to explain the logic.
+- performance: The code's performance is efficient for the given task. It avoids unnecessary computations or complex data structures.
+- security: The code does not involve any operations that could pose security risks, such as executing external commands or handling sensitive data.
+
